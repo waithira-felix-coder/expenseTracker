@@ -2,7 +2,7 @@ const transactions = JSON.parse(localStorage.getItem("transactions")) || [];
 
 const formatter = new Intl.NumberFormat("en-US", {
   style: "currency",
-  currency: "USD",
+  currency: "Ksh",
   signDisplay: "always",
 });
 
